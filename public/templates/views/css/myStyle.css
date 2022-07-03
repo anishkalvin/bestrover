@@ -1,0 +1,91 @@
+.background{
+    background-color: rgb(49, 49, 49);
+}
+.ancor{
+    font-size: small;
+    text-decoration: none;
+}
+.a{
+text-decoration: none;
+}
+.imp{
+    color: red;
+}
+@media only screen and (max-width: 600px) {
+  .picbest{
+    height: 300px;
+    width: 100%;
+  } 
+  .fallpic{
+    height: 200px;
+  } 
+  .falltext{
+    font-size: small;
+  }
+  .logo{
+    height:30px;
+    width: 30px;
+  }
+  .copyw{
+    font-size: x-small;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media only screen and (min-width: 600px) {
+    .picbest{
+        height: 300px;
+        width: 100%;
+      } 
+      .fallpic{
+        height: 200px;
+      }
+      .cardbest{
+        width:650px ;
+      }
+}
+@media only screen and (min-width: 768px) {
+    .picbest{
+        height: 300px;
+        width: 100%;
+      } 
+      .fallpic{
+        height: 200px;
+      }
+      .cardbest{
+        width:300px ;
+      }
+}
+@media only screen and (min-width: 992px) {
+    .picbest{
+        height: 300px;
+        width: 100%;
+      } 
+      .fallpic{
+        height: 200px;
+      }
+      .cardbest{
+        width:350px ;
+      }
+}
+@media only screen and (min-width: 1200px) {
+    .picbest{
+        height: 300px;
+        width: 100%;
+      } 
+      .fallpic{
+        height: 400px;
+      } 
+      .bottom{
+        padding-bottom: 80px;
+      } 
+      .cardbest{
+        width:400px ;
+      }
+}
+@media only screen and (min-width: 1300px) {
+    .cardbest{
+        width:480px ;
+        
+      }
+}
